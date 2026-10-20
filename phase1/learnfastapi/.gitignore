@@ -1,0 +1,34 @@
+# Virtual environment in this project
+/bin/
+/include/
+/lib/
+/lib64/
+/pyvenv.cfg
+/.venv/
+/venv/
+/env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.*
+*.pem
+*.key
+
+# Local databases and private application data
+*.sqlite
+*.sqlite3
+*.db
+/src/patients.json
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
