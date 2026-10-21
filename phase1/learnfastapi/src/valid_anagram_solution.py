@@ -4,9 +4,11 @@ def isAnagram(s,t):
     print(s_chars)
     print(t_chars)
 
-    for st in s_chars:
-        if st not in t_chars:
-            return False
-    return True
+    if len(s_chars) == len(t_chars):
+        for st in s_chars:
+            if st not in t_chars:
+                return False
+        return True
+    return False
 
-isAnagram("tab","bat")
+print(isAnagram("rat","car"))
