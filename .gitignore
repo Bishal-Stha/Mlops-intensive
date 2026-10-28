@@ -38,6 +38,10 @@ credentials.*
 # Logs
 *.log
 
+# Docker files (kept local, not published)
+phase1/improved_IPM/Dockerfile
+phase1/improved_IPM/.dockerignore
+
 # Editor and OS files
 .vscode/
 .idea/
